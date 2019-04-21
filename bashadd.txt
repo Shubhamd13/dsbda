@@ -1,0 +1,8 @@
+export HADOOP_HOME=$HOME/hadoop-2.7.3
+export HADOOP_CONF_DIR=$HOME/hadoop-2.7.3/etc/hadoop
+export YARN_HOME=$HOME/hadoop-2.7.3
+export PATH=$PATH:$HOME/hadoop-2.7.3/bin
+export JAVA_HOME=/usr/lib/jvm/jdk1.7.0_80/jre
+export PATH=$PATH:/usr/lib/jvm/jdk1.7.0_80/bin
+export PATH=$PATH:$HADOOP_HOME/sbin
+export CLASSPATH="$HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.7.3.jar:$HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-client-common-2.7.3.jar:$HADOOP_HOME/share/hadoop/common/hadoop-common-2.7.3.jar:$HADOOP_HOME/lib/*"
